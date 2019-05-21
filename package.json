@@ -1,0 +1,35 @@
+{
+  "name": "vuex-class-sample-type-safe",
+  "version": "1.0.0",
+  "description": "A sample project demonstrating how to achieve type safety for vuex-class library with the help of vuex-module-decorators",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "parcel src/index.html",
+    "test": "tslint ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankshaka/vuex-class-sample-type-safe.git"
+  },
+  "author": "Frank Shaka",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frankshaka/vuex-class-sample-type-safe/issues"
+  },
+  "homepage": "https://github.com/frankshaka/vuex-class-sample-type-safe#readme",
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-class-component": "^7.1.0",
+    "vue-hot-reload-api": "^2.3.3",
+    "vuex": "^3.1.1",
+    "vuex-class": "^0.3.2",
+    "vuex-module-decorators": "^0.9.9"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "parcel-bundler": "^1.12.3",
+    "tslib": "^1.9.3",
+    "typescript": "^3.4.5",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
